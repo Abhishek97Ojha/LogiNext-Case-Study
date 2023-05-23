@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# LogiNext Case Study's Solution
+Developed Using ReactJs, JavaScript, HTML, CSS and Material UI.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Dependencies
+- "@emotion/react": "^11.11.0",
+- "@emotion/styled": "^11.11.0",
+- "@mui/icons-material": "^5.11.16",
+- "@mui/material": "^5.13.1",
+- "@mui/styled-engine": "^5.12.3",
+- "@testing-library/jest-dom": "^5.16.5",
+- "@testing-library/react": "^13.4.0",
+- "@testing-library/user-event": "^13.5.0",
+- "react": "^18.2.0",
+- "react-dom": "^18.2.0",
+- "react-scripts": "5.0.1",
+- "web-vitals": "^2.1.4"
 
-## Available Scripts
+## Repository
+Open [Github Link](https://github.com/Abhishek97Ojha/LogiNext-Case-Study) to view in Browser.
 
-In the project directory, you can run:
+## Hosted Link
+Open [Hosted Link](https://logi-next-case-study.vercel.app/) to view in Browser.
 
-### `npm start`
+## Api
+[Api](https://jsonplaceholder.typicode.com/users) is used to fetch data of 10 users
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
+- Developed a single page that displays the profile of 10 users (the data is obtained from an open API ). 
+- Each user's card contains an avatar picture, name, email, phone, address, website and company name.
+- The Card has 3 action buttons to like, edit and delete.
+- Upon clicking the edit button, a Dialog Box pops up and displays information about the edited card and the user can edit the information.
+- Upon clicking the (heart shape) like button, the button toggles to red color border.
+- Upon clicking delete button, a confirmation popup displays and upon confirmation, the card is deleted. 
+- All card contains a avatar which is fetched by url *https://avatars.dicebear.com/v2/avataaars/{{username}}.svg?options[mood][]=happy*. The {{username}} in the URL is the placeholder for the user's username. It is dynamically replaced by the username received from the users API endpoint.
+- Upon opening the app a loading indicator is displayed until the data is fetched from the API and is ready to be displayed. The source code for the loading indicator is obtained from *http://tobiasahlin.com/spinkit/*.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ScreenShots
 
-### `npm test`
+### User's Profile Cards
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/><br/>
 
-### `npm run build`
+### Like Button Clicked
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/><br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Edit Dialog Box 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/><br/>
 
-### `npm run eject`
+### Delete Dialog Box
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br/><br/>
