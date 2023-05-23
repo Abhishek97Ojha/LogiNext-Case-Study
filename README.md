@@ -37,17 +37,26 @@ Open [Hosted Link](https://logi-next-case-study.vercel.app/) to view in Browser.
 ## ScreenShots
 
 ### User's Profile Cards
+![Screenshot 2023-05-23 154945](https://github.com/Abhishek97Ojha/LogiNext-Case-Study/assets/73434349/898c4c5d-3a29-4c40-8d89-b1f61ffb94c2)
+![Screenshot 2023-05-23 155047](https://github.com/Abhishek97Ojha/LogiNext-Case-Study/assets/73434349/bdde89e4-6099-4378-9ff7-f320a110f74d)
+![Screenshot 2023-05-23 155123](https://github.com/Abhishek97Ojha/LogiNext-Case-Study/assets/73434349/feef708d-8f2d-45e3-9dc0-b088140504dc)
+
 
 <br/><br/>
 
 ### Like Button Clicked
+![Screenshot 2023-05-23 155226](https://github.com/Abhishek97Ojha/LogiNext-Case-Study/assets/73434349/63fe2c05-6453-4f2f-a2f0-035dd3dd75e8)
 
 <br/><br/>
 
 ### Edit Dialog Box 
+![Screenshot 2023-05-23 155327](https://github.com/Abhishek97Ojha/LogiNext-Case-Study/assets/73434349/e3c3e62e-9416-41b2-b73d-49af30bc3185)
 
 <br/><br/>
 
 ### Delete Dialog Box
+![Screenshot 2023-05-23 155501](https://github.com/Abhishek97Ojha/LogiNext-Case-Study/assets/73434349/c2eda763-fcfa-4713-b5db-61ec66affc8e)
 
 <br/><br/>
+
+### Developed By Abhishek Ojha
