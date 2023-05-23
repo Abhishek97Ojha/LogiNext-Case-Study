@@ -55,3 +55,9 @@
     height: 1.2rem;
     border: 1px solid rgba(0, 0, 0, 0.151);
 }
+@media only screen and (max-width: 425px){
+    .card{
+        width: 16rem;
+        margin: 2rem 0;
+    }
+  }
